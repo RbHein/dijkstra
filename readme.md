@@ -34,7 +34,7 @@ para descobrir se seria possível partir do vértice 0 e chegar ao vértice 6 co
     Número de Vértices (V): 7
     Número de Arestas (E): 9
 
-    Digite as arestas no formato: u v peso
+    Digite as arestas no formato: U V Peso (Origem, Destino e Peso de cada aresta)
     Aresta 1: 0 2 6
     Aresta 2: 0 1 2
     Aresta 3: 2 3 8
@@ -45,15 +45,15 @@ para descobrir se seria possível partir do vértice 0 e chegar ao vértice 6 co
     Aresta 8: 4 6 2
     Aresta 9: 5 6 6
 
-- Após as entradas do usuário, o Algoritmo de Dijkstra é executado e disponibiliza a saída com a resposta:
-
     Vértice de origem (s): 0
     Vértice destino (t): 6
     Orçamento disponível K: 20
 
+- Após as entradas do usuário, o Algoritmo de Dijkstra é executado e disponibiliza a saída com a resposta:
+
     Resultado:
     Custo mínimo de 0 até 6: R$ 19.00
-    Caminho: 0 -> 1 -> 3 -> 4 -> 6
+    Caminho utilizado: 0 -> 1 -> 3 -> 4 -> 6
 
     SIM — é possível chegar com R$ 20.00. Saldo: R$ 1.00
 
